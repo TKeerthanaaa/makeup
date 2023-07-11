@@ -257,7 +257,7 @@ a:hover {
   width: 29.3%;
   height: 35vh;
 }
-.body-container{
+.body-container {
   display: flex;
   align-items: center;
 }
@@ -271,14 +271,13 @@ li {
   list-style: none;
 }
 
+.icon {
+  width: 10%;
+  height: 10%;
+}
+
 ul {
   width: 250px;
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-block-end: 0px;
   padding-inline-start: 20px;
   border: 0.5px solid rgb(229, 231, 235);
   border-radius: 7px;
@@ -297,12 +296,13 @@ ul {
 
 .product-container {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   padding: 2rem;
   background-color: white;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 0.85rem;
+  overflow-y: scroll;
 }
 
 .product {
@@ -342,6 +342,11 @@ ul {
   color: #1ac26e;
 }
 
+.btnload {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+}
 .load {
   font-weight: 700;
   font-size: large;
@@ -353,5 +358,4 @@ ul {
   padding: 1rem 2rem;
   background-color: #1ac26e;
   color: #fff;
-  
 }
